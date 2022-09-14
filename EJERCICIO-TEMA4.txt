@@ -1,0 +1,80 @@
+//Usando un if, crear una condición que compare si la variable numeroIf es positivo, negativo, o 0.
+Pista: Los números inferiores a 0 son negativos y los superiores, positivos.
+
+public class CicloIF { 
+    public static void main (String[]args) { 
+int numeroIf;
+if (numeroIf=0) {
+    System.out.printl("El numero es cero");
+    if (numeroIf>0)  
+        System.out.printl("El numero es positivo");
+    else (numeroIf<0)
+        System.out.printl("El numero es negativo");
+        }
+        }
+}
+
+//Crea un bucle While, este bucle tendrá que tener como condición que 
+la variable numeroWhile sea inferior a 3, el bloque de código que tendrá el bucle deberá:
+Incrementar el valor de la variable en uno cada vez que se ejecute.
+Mostrarlo por pantalla cada vez que se ejecute.
+//Para el bucle Do While, deberás crear la misma estructura que en el While, pero solo se debe ejecutar 
+una vez.
+
+
+public class CicloWhile {
+    public static void main (String[]args){
+        int numeroWhile;
+        While(numeroWhile<3){
+           System.out.printl(numeroWhile);
+            numeroWhile=numeroWhile+1
+        }
+}
+
+}
+public class CicloDoWhile {
+    public static void main (String[]args) {
+        int numeroWhile
+        do {
+            System.out.printl(numeroWhile);
+            numeroWhile=numeroWhile + 1
+        } While (numeroWhile<numeroWhile+1);
+    }
+}
+
+
+
+//Para el bucle For, crea una variable numeroFor, esta variable tendrá como valor 0 y su condición será que 
+la variable sea igual o menor que 3, se irá incrementando en 1 su valor cada vez que se ejecute y 
+deberá mostrarse por pantalla.
+
+public class CicloFor {
+    public static void main (String[]args) 
+    int numeroFor
+    for (numeroFor=0; numeroFor>=3; numeroFor=numeroFor+1) {
+        System.out.printl(numeroFor)  
+    }
+}
+
+//Por último, para el Switch, deberás crear la variable estacion, y distintos case para las cuatro estaciones del año. Dependiendo del valor de la variable estacion se deberá mandar un mensaje por consola informando de la estación 
+en la que está. También habrá que poner un default para cuando el valor de la variable no sea una estación.
+
+
+public class TipsEstaciones {
+    public static void main (String[]args)
+    str=estacion
+    switch(estacion){
+        case 1: estacion=verano;
+        System.out.printl("Recuerda beber agua y usar protector solar");
+        break;
+        case 2: estacion=otoño;
+        System.out.printl("Recuerda llevar siempre el abrigo adecuado");
+        break;
+        case 3: estacion=invierno;
+        System.out.printl("No olvides tu bufanda y guantes");
+        break;
+        case 4: estacion=primavera;
+        System.out.printl("Disfruta de las flores");
+        default: System.out.printl("Escribe una estacion");
+    }
+}
